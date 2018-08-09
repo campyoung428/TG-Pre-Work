@@ -1,0 +1,14 @@
+let molecule = 16;
+molecule += 16;
+let particle = 18;
+let assay = 3;
+
+// Add and assign to molecule below
+
+
+// Multiply and assign to particle below
+particle *= 6.02;
+
+
+// Increment assay by 1
+assay += 1;
