@@ -1,0 +1,49 @@
+let availableAirplanes = [{
+ name: 'AeroJet',
+  maxSpeed: 1200,
+  minSpeed: 300,
+ fuelCapacity: 800,
+ availableStaff: ['pilots', 'flightAttendants', 'engineers', 'medicalAssistance', 'sensorOperators'],
+}, 
+{name: 'SkyJet',
+ maxSpeed: 800,
+ minSpeed: 200,
+ fuelCapacity: 500,
+ availableStaff: ['pilots', 'flightAttendants']
+}];
+
+let flightRequirements = {
+  requiredStaff: 4,
+  requiredSpeedRange:700,
+ 
+};
+function meetsSpeedRangeRequirements(maxSpeed, minSpeed,requiredSpeedRange){
+  let range = maxSpeed - minSpeed;
+  if(range> requiredSpeedRange){
+    return true;
+    
+  }else{
+    return false;
+  }
+  
+ }
+export let availableAirplanes = [...];
+                                 export let flightRequirements = {...};
+                              
+                                 export function meetsStaffRequirements = (){
+                                 
+                                 };
+                                 export function
+                                 meetsSpeedRangeRequirements(){
+                                 
+                                 };
+
+function meetsSpeedRangeRequirements(availableStaff, requiredStaff) {
+  if (availableStaff.length >= requiredStaff) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+export { availableAirplanes, flightRequirements, meetsStaffRequirements};
